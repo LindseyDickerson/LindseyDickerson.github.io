@@ -1,0 +1,15 @@
+:root {
+    --red: #e80d0d;
+    --orange: #ff8612;
+    --purple: #470938;
+    --yellow: #fbe555;
+    --cottonCandy: #FFC6D9;
+    --bisque: #FFE1C6;
+    --peach: #fff7ae;
+    --purpleTaupe: #48284A;
+    --antiqueFuchsia: #916C80;
+    /* most of the above shades were pulled from coolors.co */
+
+    --font-one: 'Lobster', cursive;
+    /* The above font is from Google Fonts */
+}

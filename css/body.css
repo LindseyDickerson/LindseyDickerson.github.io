@@ -1,0 +1,13 @@
+/* font-family: 'Lobster', cursive; */
+
+body {
+    background-color: #ffc6d9;
+background-image: url("https://www.transparenttextures.com/patterns/wet-snow.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+    /* background-color: #ffc6d9;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png"); */
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+font-family: var(--font-one);
+}
