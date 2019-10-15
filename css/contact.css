@@ -1,14 +1,16 @@
-#contact {
-    border: 1px solid black;
+
+.rowContact {
+    width: 300px;
+    margin: auto;
 }
 
-.form-group {
-    border: 1px solid black;
+.control-group {
+    margin: auto;
+}
+
+/* .form-group {
     justify-content: center;
     flex-direction: column;
     align-content: center;
-}
+} */
 
-#name {
-    border: 1px solid blue;
-}
