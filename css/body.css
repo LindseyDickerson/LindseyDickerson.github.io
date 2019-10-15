@@ -9,9 +9,169 @@ background-image: url("https://www.transparenttextures.com/patterns/wet-snow.png
     background-image: url("https://www.transparenttextures.com/patterns/stardust.png"); */
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
-font-family: var(--font-one);
+/* font-family: var(--font-one); */
 }
 
-.row {
+.top {
+    margin: auto;
+    font-family: var(--font-two);
+    font: var(--purpleTaupe);
+    width: 140px;
+    padding: 20px;
     
+}
+
+ul { list-style-type: none; }
+
+.badges {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#triple {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#codepen {
+   width: 150px;
+   height: 150px; 
+   display: flex;
+   justify-content: center;
+}
+
+#github {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#bootstrap {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.gitAndResume {
+    display: flex;
+    justify-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: var(--font-two);
+    font: 45px;
+    font-weight: bold;
+}
+
+#resume {
+    width: 140px;
+    padding: 10px;
+}
+
+#githubLink {
+    width: 140px;
+    padding: 10px;
+}
+
+#projects {
+  padding: 10px;  
+}
+
+#completedProjects {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#cat {
+    
+    width: 161px;
+}
+
+#cssText {
+    width: 110px;
+    margin: auto;
+}
+
+#cssCat {
+    height: 200px;
+    width: 160px;
+    border: 1px solid black;
+}
+
+#hulu {
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+#staticLayout {
+    
+    width: 251px;
+}
+
+#huluText {
+    
+    width: 100px;
+    margin: auto;
+}
+
+#api {
+    
+    width: 201px;
+}
+
+#apiText {
+    
+    width: 90px;
+    margin: auto;
+}
+
+#harryPotter {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#futureProjects {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#blueBadgeDiv {
+    width: 201px;
+}
+
+#blueBadge {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#blueText {
+    width: 174px;
+    margin: auto;
+}
+
+#redBadgeDiv {
+    width: 201px; 
+}
+
+#redBadge {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#redText {
+    width: 174px;
+    margin: auto;
 }

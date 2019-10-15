@@ -1,8 +1,10 @@
 a:link, a:visited, a:hover, a:active {
-    text-decoration: none; color: var(--bisque);
+    text-decoration: none; color: var(--purpleTaupe);
   }
 
 #navBar {
-    background-color: var(--antiqueFuchsia);
+    background-color: var(--bisque);
+    font-family: var(--font-one);
     
 }
+

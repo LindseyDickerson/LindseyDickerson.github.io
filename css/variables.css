@@ -3,6 +3,7 @@
     --orange: #ff8612;
     --purple: #470938;
     --yellow: #fbe555;
+    /* begin actual color palette */
     --cottonCandy: #FFC6D9;
     --bisque: #FFE1C6;
     --peach: #fff7ae;
@@ -11,5 +12,6 @@
     /* most of the above shades were pulled from coolors.co */
 
     --font-one: 'Lobster', cursive;
+    --font-two: 'Raleway', sans-serif;
     /* The above font is from Google Fonts */
 }

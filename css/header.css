@@ -1,3 +1,7 @@
+#header {
+    font-family: var(--font-one);
+}
+
 .jumbotron {
     background: url('../assets/jumbotron.jpg'), no-repeat center;
     background-size: cover;
@@ -5,3 +9,4 @@
     text-align: center;
     height: 35vh;
 }
+
