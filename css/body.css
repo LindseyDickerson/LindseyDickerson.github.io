@@ -12,6 +12,7 @@ background-image: url("https://www.transparenttextures.com/patterns/wet-snow.png
 /* font-family: var(--font-one); */
 }
 
+
 .top {
     margin: auto;
     font-family: var(--font-two);
@@ -28,6 +29,24 @@ background-image: url("https://www.transparenttextures.com/patterns/wet-snow.png
 }
 
 ul { list-style-type: none; }
+
+.display-4 {
+    text-shadow: 2px 1px var(--purpleTaupe);
+}
+
+.lead {
+    text-shadow: 2px 1px var(--purpleTaupe);
+}
+
+.text-center {
+    color: var(--purpleTaupe);
+    text-shadow: 1px 1px var(--antiqueFuchsia);
+}
+
+.col-4 {
+    color: var(--purpleTaupe);
+    font-family: var(--font-two);
+}
 
 .badges {
     display: flex;
@@ -98,6 +117,8 @@ ul { list-style-type: none; }
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: var(--font-two);
+    color: var(--purpleTaupe);
 }
 
 #cat {
@@ -158,6 +179,8 @@ ul { list-style-type: none; }
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: var(--font-two);
+    color: var(--purpleTaupe);
 
 }
 
@@ -192,3 +215,4 @@ ul { list-style-type: none; }
     width: 174px;
     margin: auto;
 }
+

@@ -6,5 +6,9 @@ a:link, a:visited, a:hover, a:active {
     background-color: var(--bisque);
     font-family: var(--font-one);
     
+    
 }
 
+.nav-item {
+  color: var(--purpleTaupe);
+}
