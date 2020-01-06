@@ -278,6 +278,7 @@ ul { list-style-type: none; }
 }
 
 #redBadge {
+    Display: flex;
     height: 200px;
     width: 200px;
     border: 1px solid black;
