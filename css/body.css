@@ -50,9 +50,23 @@ ul { list-style-type: none; }
 
 .badges {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+#goldBadgeTools {
+    display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    width: 70%;
 }
 
 #triple {
@@ -60,28 +74,66 @@ ul { list-style-type: none; }
     justify-content: center;
     border: 1px solid black;
     border-radius: 20px;
+    height: 100px;
     
 }
 
 #codepen {
-   width: 150px;
-   height: 150px; 
-   display: flex;
-   justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 #github {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
 }
 
 #bootstrap {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
+}
+
+#blueBadgeTools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+#node {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 75px;
+}
+
+#react {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 75px;
+    border: 1px solid black;
+}
+
+#heroku {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .gitAndResume {
@@ -185,19 +237,40 @@ ul { list-style-type: none; }
 }
 
 #blueBadgeDiv {
-    width: 201px;
+    /* width: 201px;
+    height: 201px; */
+    /* border: 1px solid purple; */
+    
+}
+
+#elfImageDiv {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    /* margin-top: 10px; */
+    background-color: #d8403f;
+    border-radius: 20px;
+    left: -130px;
 }
 
 #blueBadge {
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 20px;
+    display: flex;
+    height: 160px;
+    width: 160px;
+    /* border: 1px solid black; */
+    /* border-radius: 20px; */
+    /* margin-top: 10px; */
+    margin: auto;
+    margin-top: 20px;
+    /* top: -40px; */
+    /* background-color: red; */
 }
 
 #blueText {
-    width: 174px;
+    width: 150px;
     margin: auto;
+    /* border: 1px solid orange; */
+    text-align: center;
 }
 
 #redBadgeDiv {
