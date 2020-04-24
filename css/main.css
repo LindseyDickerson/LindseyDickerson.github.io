@@ -8,10 +8,10 @@
 
 body {
     background-color: #bcb0d3;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
 #coronaimage {
     height: 100vh;
-    /* width: 100vw; */
 }
