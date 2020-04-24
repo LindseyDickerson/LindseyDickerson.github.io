@@ -18,7 +18,7 @@ body {
     display: flex;
 }
 
-@media screen and (min-width: 450px, max-width: 1450px) {
+@media screen and (min-width: 450px, max-width 1450px) {
     body {
         height: 50%;
         display: flex;
