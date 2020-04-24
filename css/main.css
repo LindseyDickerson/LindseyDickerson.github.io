@@ -1,12 +1,8 @@
-@import "about.css";
-@import "body.css";
-@import "contact.css";
-@import "footer.css";
-@import "header.css";
-@import "navbar.css";
-@import "variables.css";
-
 body {
     background-color: #bcb0d3;
+    height: 100vh;
+}
+
+#coronavirusFunctionImage {
     height: 100vh;
 }
